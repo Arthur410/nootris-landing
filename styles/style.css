@@ -377,6 +377,10 @@
 }
 
 @media (max-width: 1199.98px) {
+	.activate__title h1 {
+		font-size: 120px;
+	}
+
 	.header__nav ul li {
 		display: flex;
 		align-items: center;
