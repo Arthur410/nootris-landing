@@ -69,6 +69,7 @@
 
 .header__nav ul li a {
 	color: #fff;
+	text-align: center;
 	font-size: 18px;
 	border-bottom: 1px solid transparent;
 	padding-bottom: 2px;
@@ -370,7 +371,10 @@
 }
 
 @media (max-width: 1199.98px) {
-
+	.header__nav ul li {
+		display: flex;
+		align-items: center;
+	}
 
 	.activate__image {
 		display: flex;
